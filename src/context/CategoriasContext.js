@@ -6,7 +6,7 @@ const CategoriasContext = React.createContext();
 export const CategoriasConsumer = CategoriasContext.Consumer;
 
 class CategoriasProvider extends Component {
-  token = "DLLVIE4FJJAH3XFKS2ND";
+  token = "you app key";
   componentDidMount() {
     this.obtenerCategorias();
   }
